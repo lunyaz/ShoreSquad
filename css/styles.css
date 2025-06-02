@@ -129,6 +129,25 @@ body {
     background-color: #eee;
     border-radius: 10px;
     margin-top: 2rem;
+    overflow: hidden;
+}
+
+.map-info {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.map-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.map-info p {
+    margin-bottom: 0.5rem;
+    color: var(--text-dark);
 }
 
 /* Weather Section */

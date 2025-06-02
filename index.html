@@ -29,12 +29,23 @@
             <h1>Make Waves of Change</h1>
             <p class="hero-text">Join the movement to keep our beaches clean. Track weather, find cleanup events, and connect with fellow ocean lovers.</p>
             <button class="primary-button">Find Nearby Cleanups</button>
-        </section>
-
-        <section id="map" class="map-section">
+        </section>        <section id="map" class="map-section">
             <h2>Beach Cleanup Map</h2>
             <div class="map-container">
-                <!-- Map will be initialized here by JavaScript -->
+                <iframe
+                    id="cleanup-map"
+                    width="100%"
+                    height="100%"
+                    style="border:0"
+                    loading="lazy"
+                    allowfullscreen
+                    src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=1.381497,103.955574&zoom=15&center=1.381497,103.955574">
+                </iframe>
+            </div>
+            <div class="map-info">
+                <h3>Next Cleanup: Pasir Ris</h3>
+                <p>Location: Street View Asia</p>
+                <p>Coordinates: 1.381497, 103.955574</p>
             </div>
         </section>
 
